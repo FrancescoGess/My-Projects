@@ -1,9 +1,9 @@
 <script setup>
-import Homepage from './components/Homepage.vue'
+import Navbar from './components/Header/Navbar.vue'
 </script>
 
 <template>
-<Homepage></Homepage>
+<Navbar></Navbar>
 </template>
 
 <style scoped>
