@@ -7,6 +7,7 @@ import { ref } from 'vue'
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
+      <img id="logo" style="width: 100px; height: 80px;" src="/src/components/Header/logo.jpg" alt="logo">
       <!-- <img src="/src/assets/img/logo.webp" alt=""> -->
       <a class="navbar-brand" href="#">Le cinque viti</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -51,6 +52,7 @@ nav {
   background-color: rgb(119, 11, 3);
   position: fixed;
   width: 100%;
+  height: 80px;
 
   .btn {
     color: white;
