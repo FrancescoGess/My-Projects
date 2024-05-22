@@ -37,8 +37,8 @@ import { ref } from 'vue'
           </li>
         </ul>
         <form class="d-flex">
-          <input class="search" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn" type="submit">Search</button>
+          <input class="search" type="search" placeholder="Cerca" aria-label="Search">
+          <button class="btn" type="submit">Cerca</button>
         </form>
       </div>
     </div>
@@ -48,7 +48,9 @@ import { ref } from 'vue'
 <style lang="scss" scoped>
 
 nav {
-  background-color: rgb(148, 69, 5);
+  background-color: rgb(119, 11, 3);
+  position: fixed;
+  width: 100%;
 
   .btn {
     color: white;
